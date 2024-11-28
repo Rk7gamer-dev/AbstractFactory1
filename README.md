@@ -37,17 +37,16 @@ Este projeto implementa um sistema para gerenciar o aluguel de meios de transpor
 ## Estrutura do Projeto
 ```plaintext
 src/
-└── com.example.transport
-    ├── Transport.java (Interface)
-    ├── ElectricScooter.java (Classe concreta)
-    ├── ElectricBike.java (Classe concreta)
-    ├── Bicycle.java (Classe concreta)
-    ├── RollerSkates.java (Classe concreta)
-    ├── Skateboard.java (Classe concreta)
-    ├── TransportFactory.java (Fábrica abstrata)
-    ├── ElectricTransportFactory.java (Fábrica concreta)
-    ├── HumanPoweredTransportFactory.java (Fábrica concreta)
-    └── Main.java (Classe principal)
+ ├── Transport.java (Interface)
+ ├── ElectricScooter.java (Classe concreta)
+ ├── ElectricBike.java (Classe concreta)
+ ├── Bicycle.java (Classe concreta)
+ ├── RollerSkates.java (Classe concreta)
+ ├── Skateboard.java (Classe concreta)
+ ├── TransportFactory.java (Fábrica abstrata)
+ ├── ElectricTransportFactory.java (Fábrica concreta)
+ ├── HumanPoweredTransportFactory.java (Fábrica concreta)
+ └── Main.java (Classe principal)
 ```
 
 ## Desenvolvimento
